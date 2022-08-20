@@ -1,0 +1,80 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Nachiket",
+      "description": "Description for task1",
+      "status": "todo",
+      "tags": [
+        "Personal"
+      ],
+      "subTask": [
+        {
+          "subTitla": "SUB1",
+          "status": true
+        },
+        {
+          "subTitla": "SUB2",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "TASK-2",
+      "description": "Description for task2",
+      "status": "in-Progress",
+      "tags": [
+        "Official"
+      ],
+      "subTask": [
+        {
+          "subTitla": "SUB3",
+          "status": false
+        },
+        {
+          "subTitla": "SUB4",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "TASK-3",
+      "description": "Description for task3",
+      "status": "done",
+      "tags": [
+        "Personal"
+      ],
+      "subTask": [
+        {
+          "subTitla": "SUB4",
+          "status": true
+        },
+        {
+          "subTitla": "SUB5",
+          "status": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hello-World",
+      "description": "Description for Hello-World",
+      "status": "todo",
+      "tags": [
+        "Others"
+      ],
+      "subTask": [
+        {
+          "subTitla": "SUB6",
+          "status": true
+        },
+        {
+          "subTitla": "SUB7",
+          "status": false
+        }
+      ]
+    }
+  ]
+}
